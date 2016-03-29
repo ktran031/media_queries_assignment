@@ -314,17 +314,30 @@ footer p {
 }
 
 .mobile-nav li {
+  display: none;
+}
+
+/*.mobile-nav li {
   padding: 10px;
   background-color: #ececec;
   border: none;
   border-top: 1px solid black;
+}*/
+
+
+/*@media only screen and (min-width: 768px) {
+
+.mobile-nav {
+  display: none;
 }
 
+
+}*/
 
 @media only screen and (max-width: 768px) {
 
   
-  .desktop-nav ul {
+  .desktop-nav li {
     display: none;
   }
 
@@ -356,6 +369,16 @@ footer p {
   }
 
 /*Blog Page*/
+.active {
+  display: none;
+}
+header nav {
+  float: left;
+}
+
+header nav li {
+  float: left;
+}
 
 #posts {
   width: 100%;
@@ -380,6 +403,7 @@ footer p {
   .mobile-nav li {
     background-color: #033048;
     border-top: none;
+    display: inline-block;
   }
 
   #sidebar {
@@ -388,7 +412,7 @@ footer p {
     display: block;
   }
 
-
+  
 
   
 }
